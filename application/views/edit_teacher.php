@@ -183,7 +183,7 @@
                                 <div class="form-group">
                                    <div class="col-md-6 col-sm-12 col-xs-12">
                                    <label class="control-label" for="employee_id">Teacher Number</label>
-                                   <input type="text" id="admin_no"  name="teacher_no" required="required" class="form-control col-md-7 col-xs-12" value="<?php echo $admin_no; ?>" readonly>
+                                   <input type="text" id="teacher_no"  name="teacher_no" required="required" class="form-control col-md-7 col-xs-12" value="<?php echo $teacher_no; ?>" readonly>
                                    </div>
                                  </div>
                                  <div class="col-md-4 col-sm-4 col-xs-12">

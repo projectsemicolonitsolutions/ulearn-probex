@@ -42,13 +42,15 @@
                         <div class="form-group">
                                 <label for="new_password" class="control-label col-md-3 col-sm-3 col-xs-12">New Password</label>
                                   <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input id="new_password" class="form-control col-md-7 col-xs-12" type="password" name="new_password">
+                                    <input id="new_password" class="form-control col-md-7 col-xs-12" pattern="^[a-zA-Z0-9].{6,25}$" type="password" name="new_password">
+                                    <span>It only accepts alphanumeric character from A-Z up to 0-9. minimum of 6 characters and maximum of 25 characters</span>
                                   </div>
                         </div>
                         <div class="form-group">
                                 <label for="new_password" class="control-label col-md-3 col-sm-3 col-xs-12">Confirm Password</label>
                                   <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input id="new_password" class="form-control col-md-7 col-xs-12" type="password" name="new_password_confirm">
+                                    <input id="new_password" class="form-control col-md-7 col-xs-12" type="password" pattern="^[a-zA-Z0-9].{6,25}$" name="new_password_confirm">
+                                    <span>It only accepts alphanumeric character from A-Z up to 0-9. minimum of 6 characters and maximum of 25 characters</span>
                                   </div>
                         </div>
                         <div class="ln_solid"></div>

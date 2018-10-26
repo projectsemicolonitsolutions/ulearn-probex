@@ -155,9 +155,9 @@
                 <div class="x_panel">
                         <div class="x_title">
                           <h2>Class <small>Section</small></h2>
-                          <!-- <ul class="nav navbar-right panel_toolbox">
-                            <li><a href="add_section.html"><i class="fa fa-user-plus"></i> Add Class Section</a>
-                          </ul> -->
+                          <ul class="nav navbar-right panel_toolbox">
+                            <li><a href=""><i class="fa fa-user-plus"></i> Add Class Section</a>
+                          </ul>
                           <div class="clearfix"></div>
                 </div>
                 <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
